@@ -12,4 +12,4 @@ relativeurls = true
   githubName = "gumeo"
   linkedinName = "gudmundur-einarsson-484406a7"
   description = "Machine Learning, Coding and Expat live"
-  google_analytics = "UA-xxxxxx-xx"
+  #google_analytics = "UA-xxxxxx-xx"
