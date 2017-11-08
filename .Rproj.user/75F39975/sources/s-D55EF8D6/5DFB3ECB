@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1510064379929.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "5DFB3ECB",
+    "lastKnownWriteTime" : 1510155681,
+    "last_content_update" : 1510155681320,
+    "path" : "~/Documents/gumeo-blog/content/post/2015-07-23-r-rmarkdown.Rmd",
+    "project_path" : "content/post/2015-07-23-r-rmarkdown.Rmd",
+    "properties" : {
+        "cursorPosition" : "17,291",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}
