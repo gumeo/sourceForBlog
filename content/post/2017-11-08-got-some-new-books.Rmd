@@ -1,0 +1,17 @@
+---
+title: Got some new books!
+author: Gudmundur Einarsson
+date: '2017-11-08'
+slug: got-some-new-books
+categories:
+  - Machine-Learning
+  - R
+  - Sparse
+tags: []
+---
+
+I have been waiting to read these for a while now!
+
+```{r echo=FALSE}
+blogdown::shortcode('tweet', '928251371865956354')
+```
