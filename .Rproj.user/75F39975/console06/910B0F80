@@ -1,6 +1,4 @@
 
--rw-rw-r--  1 guei guei  931 Nov  8 15:54 sitemap.xml
-drwxrwxr-x  6 guei guei 4096 Nov  8 15:50 [01;34mtags[0m/
 ]0;/home/guei/Documents/gumeo-blog/public]0;guei@comp-nbguei: ~/Documents/gumeo-blog/public[01;32mguei@comp-nbguei[00m:[01;34m~/Documents/gumeo-blog/public[00m$ cd ..
 ]0;/home/guei/Documents/gumeo-blog]0;guei@comp-nbguei: ~/Documents/gumeo-blog[01;32mguei@comp-nbguei[00m:[01;34m~/Documents/gumeo-blog[00m$ ls
 [0m[01;34marchetypes[0m  config.toml  [01;34mcontent[0m  [01;34mdata[0m  gumeo-blog.Rproj  index.Rmd  [01;34mlayouts[0m  [01;34mpublic[0m  [01;34mstatic[0m  [01;34mthemes[0m
@@ -1001,4 +999,85 @@ To https://github.com/gumeo/gumeo.github.io.git
    78dcbf3..a8d94e8  master -> master
 [K]0;guei@comp-nbguei: ~/Documents/gumeo-blog/public[01;32mguei@comp-nbguei[00m:[01;34m~/Documents/gumeo-blog/public[00m$ ls -a
 [0m[01;34m.[0m  [01;34m..[0m  [01;34mcategories[0m  [01;34mcss[0m  [01;34m.git[0m  index.html  index.xml  [01;34mjs[0m  .nojekyll  [01;34mpage[0m  [01;34mpost[0m  sitemap.xml  [01;34mtags[0m
+[K]0;guei@comp-nbguei: ~/Documents/gumeo-blog/public[01;32mguei@comp-nbguei[00m:[01;34m~/Documents/gumeo-blog/public[00m$ git add .
+]0;/home/guei/Documents/gumeo-blog/public]0;guei@comp-nbguei: ~/Documents/gumeo-blog/public[01;32mguei@comp-nbguei[00m:[01;34m~/Documents/gumeo-blog/public[00m$ git commit -m 'minor ch'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'C'r'e'a't'i'n'g' 'a't't'r'a'c't'o'r' 'p'o's't' '1'
+[master 39e54e4] Creating attractor post 1
+ 1 file changed, 52 insertions(+)
+ create mode 100644 post/2017-11-10-visualizing-strange-attractors.Rmd
+]0;/home/guei/Documents/gumeo-blog/public]0;guei@comp-nbguei: ~/Documents/gumeo-blog/public[01;32mguei@comp-nbguei[00m:[01;34m~/Documents/gumeo-blog/public[00m$ git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+error: cannot run rpostback-askpass: No such file or directory
+Username for 'https://github.com': gummicool1
+error: cannot run rpostback-askpass: No such file or directory
+Password for 'https://gummicool1@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/gumeo/gumeo.github.io.git/'
+]0;/home/guei/Documents/gumeo-blog/public]0;guei@comp-nbguei: ~/Documents/gumeo-blog/public[01;32mguei@comp-nbguei[00m:[01;34m~/Documents/gumeo-blog/public[00m$ git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+error: cannot run rpostback-askpass: No such file or directory
+Username for 'https://github.com': gumeo
+error: cannot run rpostback-askpass: No such file or directory
+Password for 'https://gumeo@github.com': 
+Counting objects: 4, done.
+Delta compression using up to 8 threads.
+Compressing objects:  25% (1/4)   Compressing objects:  50% (2/4)   Compressing objects:  75% (3/4)   Compressing objects: 100% (4/4)   Compressing objects: 100% (4/4), done.
+Writing objects:  25% (1/4)   Writing objects:  50% (2/4)   Writing objects:  75% (3/4)   Writing objects: 100% (4/4)   Writing objects: 100% (4/4), 2.57 KiB | 0 bytes/s, done.
+Total 4 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/2)   [Kremote: Resolving deltas:  50% (1/2)   [Kremote: Resolving deltas: 100% (2/2)   [Kremote: Resolving deltas: 100% (2/2), completed with 2 local objects.[K
+To https://github.com/gumeo/gumeo.github.io.git
+   a8d94e8..39e54e4  master -> master
+]0;/home/guei/Documents/gumeo-blog/public]0;guei@comp-nbguei: ~/Documents/gumeo-blog/public[01;32mguei@comp-nbguei[00m:[01;34m~/Documents/gumeo-blog/public[00m$ git pushcommit -m 'Creating attractor post 1'add .[K
+]0;/home/guei/Documents/gumeo-blog/public]0;guei@comp-nbguei: ~/Documents/gumeo-blog/public[01;32mguei@comp-nbguei[00m:[01;34m~/Documents/gumeo-blog/public[00m$ git add .[1Ppushcommit -m 'Creating attractor post 1'[C[1@ [1@.
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working directory clean
+]0;/home/guei/Documents/gumeo-blog/public]0;guei@comp-nbguei: ~/Documents/gumeo-blog/public[01;32mguei@comp-nbguei[00m:[01;34m~/Documents/gumeo-blog/public[00m$ git commit . -m 'Creating attractor post 1'[1P[1@*
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working directory clean
+]0;/home/guei/Documents/gumeo-blog/public]0;guei@comp-nbguei: ~/Documents/gumeo-blog/public[01;32mguei@comp-nbguei[00m:[01;34m~/Documents/gumeo-blog/public[00m$ git commit * -m 'Creating attractor post 1'.[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cadd .[K/*
+]0;/home/guei/Documents/gumeo-blog/public]0;guei@comp-nbguei: ~/Documents/gumeo-blog/public[01;32mguei@comp-nbguei[00m:[01;34m~/Documents/gumeo-blog/public[00m$ git add ./*commit * -m 'Creating attractor post 1'
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working directory clean
 ]0;/home/guei/Documents/gumeo-blog/public]0;guei@comp-nbguei: ~/Documents/gumeo-blog/public[01;32mguei@comp-nbguei[00m:[01;34m~/Documents/gumeo-blog/public[00m$ 
