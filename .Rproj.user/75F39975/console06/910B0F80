@@ -1080,4 +1080,14 @@ nothing to commit, working directory clean
 On branch master
 Your branch is up-to-date with 'origin/master'.
 nothing to commit, working directory clean
+]0;/home/guei/Documents/gumeo-blog/public]0;guei@comp-nbguei: ~/Documents/gumeo-blog/public[01;32mguei@comp-nbguei[00m:[01;34m~/Documents/gumeo-blog/public[00m$ git commit * -m 'Creating attractor post 1'add ./*[K
+]0;/home/guei/Documents/gumeo-blog/public]0;guei@comp-nbguei: ~/Documents/gumeo-blog/public[01;32mguei@comp-nbguei[00m:[01;34m~/Documents/gumeo-blog/public[00m$ git add ./*commit * -m 'Creating attractor post 1'add ./*[Kcommit * -m 'Creating attractor post 1'
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working directory clean
+]0;/home/guei/Documents/gumeo-blog/public]0;guei@comp-nbguei: ~/Documents/gumeo-blog/public[01;32mguei@comp-nbguei[00m:[01;34m~/Documents/gumeo-blog/public[00m$ git commit * -m 'Creating attractor post 1'add ./*[Kcommit * -m 'Creating attractor post 1'add ./*[Kcommit * -m 'Creating attractor post 1'.[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C*[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cadd ./*[Kcommit * -m 'Creating attractor post 1'add ./*[Kcommit * -m 'Creating attractor post 1'[Kgit commit * -m 'Creating attractor post 1'add ./*[K
+]0;/home/guei/Documents/gumeo-blog/public]0;guei@comp-nbguei: ~/Documents/gumeo-blog/public[01;32mguei@comp-nbguei[00m:[01;34m~/Documents/gumeo-blog/public[00m$ git add ./*commit * -m 'Creating attractor post 1'add ./*[Kcommit * -m 'Creating attractor post 1'
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working directory clean
 ]0;/home/guei/Documents/gumeo-blog/public]0;guei@comp-nbguei: ~/Documents/gumeo-blog/public[01;32mguei@comp-nbguei[00m:[01;34m~/Documents/gumeo-blog/public[00m$ 
