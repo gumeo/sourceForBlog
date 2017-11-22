@@ -1,0 +1,44 @@
+---
+title: 'Visualizing Strange Attractors '
+author: Gudmundur Einarsson
+date: '2017-11-10'
+slug: visualizing-strange-attractors
+categories:
+  - Graphics
+  - openGL
+tags: []
+---
+
+
+
+<div id="what-is-a-strange-attractor" class="section level1">
+<h1>What is a strange attractor?</h1>
+<p>The <a href="https://en.wikipedia.org/wiki/Attractor#Strange_attractor">wikipedia article</a> on attractors gives the following definition/explanation:</p>
+<blockquote>
+<p>An attractor is called strange if it has a fractal structure. This is often the case when the dynamics on it are chaotic, but strange nonchaotic attractors also exist. If a strange attractor is chaotic, exhibiting sensitive dependence on initial conditions, then any two arbitrarily close alternative initial points on the attractor, after any of various numbers of iterations, will lead to points that are arbitrarily far apart (subject to the confines of the attractor), and after any of various other numbers of iterations will lead to points that are arbitrarily close together. Thus a dynamic system with a chaotic attractor is locally unstable yet globally stable: once some sequences have entered the attractor, nearby points diverge from one another but never depart from the attractor.</p>
+</blockquote>
+<p>So for a dynamical system, which is usually a solution to a system of differential equations, we have some solutions which are called attractors. The attractors, attract a particle, or something moving in the system, meaning that when the particle falls into the attractor, it stays there. A relatable example is an asteroid that is moving in space and then starts orbiting a planet, and is then stuck in orbit, which is an attractor.</p>
+<p>Some simple equations, like the <a href="https://en.wikipedia.org/wiki/Lorenz_system">Lorenz system</a> are chaotic. This means that if you change the initial conditions slightly, what you get out after a certain number of steps, (you iterate the solution in steps usually), is going to be vastly different. When scientists model something, this is not a very attractive property. We would like our system to be robust to minor initial perturbations, but this is not always possible. Many physical systems that we model have this chaotic nature, most notably the weather, it is very hard to make weather forecasts far into the future with good accuracy.</p>
+<p>Although attractors are commonly associated with solutions of differential equations, they can also appear in general with an iterative system. An iterative system is a function, or a tuple of functions, where we iteratively feed the output in as input and <em>iterate</em> the solution in this way. This is also how you numerically find solutions to differential equations, where no analytical solution exists, or we can’t find one.</p>
+<p>In case I have piqued your interest in dynamical system, I took some <a href="http://www.imm.dtu.dk/~guei/linfell.pdf">lecture notes</a> in a course I took some years ago. These notes are not quite finished, but should give you a rough idea about the basics and where to go from there.</p>
+</div>
+<div id="why-is-this-post-tagged-as-graphics" class="section level1">
+<h1>Why is this post tagged as Graphics?</h1>
+<p>Ok, so the point is that these attractors often look very nice. You can render them, but it can be a bit heavy computationally. I saw a very cool tweet by <a href="https://www.data-imaginist.com/">Thomas Lin Pedersen</a> where he was rendering particles in a very nice way in R:</p>
+{{% tweet "912754660867497984" %}}
+<p>At that point I was inspired to do some cool visualizations myself, and learn how to make these aesthetically pleasing renderings. I also wanted to be able to make gifs or screen savers with these things.</p>
+<p>I found <a href="https://fronkonstin.com/2017/11/07/drawing-10-million-points-with-ggplot-clifford-attractors/">this</a> post about rendering strange attractors in R, using Rcpp. The Rcpp code for generating the points is actually very fast, what is the bottleneck here is the rendering with ggplot. So if you implement a rendering stack for a gif with this, the development time when you need to tweak many parameters is going to be rather slow.</p>
+</div>
+<div id="the-clifford-attractor" class="section level1">
+<h1>The Clifford attractor</h1>
+<p>So the attractor in the post I linked to above is called a Clifford attractor. What is interesting about the way it is generated is that the shape is controlled by four parameters <span class="math inline">\(a,b,c\)</span> and <span class="math inline">\(d\)</span>. The shape is in some sense continuous in these parameters, meaning that if I make small adjustments in the parameters, the shape will not change too much. With this in mind I wanted to make a gif with it, I.e. we make a loop in the parameters space and render images for equally spaced parameters along this curve. For a small enough spacing, this will give me a continuously deforming shape and I will be able to loop it, because the curve in parameter space is a loop.</p>
+<p>Not all parameters give us nice looking attractors, so I need a way to iterate this process fast, for different sets of parameters, to see what works.</p>
+<p>One particular</p>
+<ul>
+<li>Link to my notes on dynamical systems</li>
+<li>Something about Thomas Lin</li>
+<li>openGL</li>
+<li>Why we need faster for experimentation</li>
+<li>Link to code and github…</li>
+</ul>
+</div>
