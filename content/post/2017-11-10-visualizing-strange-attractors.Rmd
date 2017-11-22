@@ -39,14 +39,18 @@ I found [this](https://fronkonstin.com/2017/11/07/drawing-10-million-points-with
 
 So the attractor in the post I linked to above is called a Clifford attractor. What is interesting about the way it is generated is that the shape is controlled by four parameters $a,b,c$ and $d$. The shape is in some sense continuous in these parameters, meaning that if I make small adjustments in the parameters, the shape will not change too much. With this in mind I wanted to make a gif with it, I.e. we make a loop in the parameters space and render images for equally spaced parameters along this curve. For a small enough spacing, this will give me a continuously deforming shape and I will be able to loop it, because the curve in parameter space is a loop.
 
-Not all parameters give us nice looking attractors, so I need a way to iterate this process fast, for different sets of parameters, to see what works.
+Not all parameters give us nice looking attractors, so I need a way to iterate this process fast, for different sets of parameters, to see what works. I talked to some of my colleagues that know about computer graphics, and they said that they way to go forward would be to use openGL. I actually found a tutorial of exactly what I needed [here](https://nathanselikoff.com/training/tutorial-strange-attractors-in-c-and-opengl). This is a tutorial on how to render multiple points, with point smoothing and good anti-aliasing, and this guy actually uses the Clifford attractor, **nice!**. What I was missing was ways to save intermediate plots, then I was just going to use ImageMagick to combine it into a gif. 
 
+[The highest voted answer in this SO thread](https://stackoverflow.com/questions/3191978/how-to-use-glut-opengl-to-render-to-a-file) had everything I needed for saving the images. Now I just had to combine these things together!
 
+After saving the images I used the bash command `mogrify` to change them into png images and finally ImageMagick to create the gif:
+```{bash, eval=FALSE}
+mogrify -format png *.*
+convert -delay 120 -loop 0 *.png animated.gif
+```
 
-One particular 
+Here you can see the results on imgur:
 
-- Link to my notes on dynamical systems
-- Something about Thomas Lin
-- openGL
-- Why we need faster for experimentation
-- Link to code and github...
+<blockquote class="imgur-embed-pub" lang="en" data-id="a/ZFpHB"><a href="//imgur.com/ZFpHB">Strange attractors</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+
+[The code is also now on github](https://github.com/gumeo/movingAttractor) in case you want to play around with it!
