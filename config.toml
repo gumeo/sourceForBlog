@@ -3,7 +3,6 @@ theme = "purehugo"
 languageCode = "en-us"
 title = "Gumeo's Blog"
 Paginate = 10
-disqusShortname = "xxxx"
 enableEmoji = true
 relativeurls = true
 
@@ -11,5 +10,5 @@ relativeurls = true
   twitterName = "gumgumeo"
   githubName = "gumeo"
   linkedinName = "gudmundur-einarsson-484406a7"
-  description = "Machine Learning, Coding and Expat live"
-  #google_analytics = "UA-xxxxxx-xx"
+  description = "Machine Learning, Coding and Expat life"
+  #google_analytics = "UA-110075286-1"
