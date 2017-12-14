@@ -1,0 +1,14 @@
+---
+title: 'Part 1: Deep Learning with Closures in R'
+author: 'Gudmundur Einarsson'
+date: '2017-12-14'
+slug: part-1-deep-learning-with-closures-in-r
+categories:
+  - Machine-Learning
+  - Deep-Learning
+  - R
+  - Functional-Programming
+tags: []
+---
+
+# Some title
