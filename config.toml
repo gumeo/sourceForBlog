@@ -2,7 +2,7 @@ baseurl = "https://gumeo.github.io/"
 theme = "purehugo"
 languageCode = "en-us"
 title = "Gumeo's Blog"
-Paginate = 10
+Paginate = 5
 enableEmoji = true
 relativeurls = true
 
