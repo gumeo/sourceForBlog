@@ -16,7 +16,7 @@ tags: []
 The gif below is the evolution of the weights on mnist, trained over the first three epochs. Mnist is a dataset of handwritten digits, and is kind of the **hello world/FizzBuzz** of machine learning. It is maybe not a very challenging data set, but you can learn a lot from it. This is a 10 by 10 grid of images, where each individual small patch represents weights going to a single neuron in the first hidden layer. After I saw the content by Grant Sanderson, I wanted to inspect by myself what the network is actually learning. This series is going to outline this development, with an angle towards functional programming.
 
 <center>
-<iframe class="imgur-embed" width="100%" height="560" frameborder="0" src="https://i.imgur.com/V3l01mn.gifv#embed"></iframe>
+<blockquote class="imgur-embed-pub" lang="en" data-id="V3l01mn"><a href="//imgur.com/V3l01mn">First layer when learning mnist</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 </center>
 
 So I received the [Deep Learning book](http://www.deeplearningbook.org/) a little more than a month ago, and I have had time to read parts I and II. I think that overall the authors successfully explain and condense a lot of research into something digestable. The reason why I use the word condense is because how much information the book contains. The bibliography is 55 pages, so I almost feel that the book should be called *Introduction to Deep Learning Research*, because it is a gateway to so much good material. Another fascinating thing about this book is the discussion it contains. The authors are quite upfront about some criticisms on deep learning and discuss them to a great extent. All in all I look forward to finish reading the book.
