@@ -13,7 +13,7 @@ tags: []
 
 # Start of a small series
 
-The gif below is the evolution of the weights on mnist, trained over the first three epochs. Mnist is a dataset of handwritten digits, and is kind of the **hello world/FizzBuzz** of machine learning. It is maybe not a very challenging data set, but you can learn a lot from it. This is a 10 by 10 grid of images, where each individual small patch represents weights going to a single neuron in the first hidden layer. After I saw the content by Grant Sanderson, I wanted to inspect by myself what the network is actually learning. This series is going to outline this development, with an angle towards functional programming.
+The gif below is the evolution of the weights from a neural network trained on the mnist dataset. Mnist is a dataset of handwritten digits, and is kind of the **hello world/FizzBuzz** of machine learning. It is maybe not a very challenging data set, but you can learn a lot from it. This is a 10 by 10 grid of images, where each individual small patch represents weights going to a single neuron in the first hidden layer of the network. After I saw the content by Grant Sanderson, I wanted to inspect by myself what the network is actually learning. This series is going to outline this development, with an angle towards functional programming.
 
 <center>
 <blockquote class="imgur-embed-pub" lang="en" data-id="V3l01mn"><a href="//imgur.com/V3l01mn">First layer when learning mnist</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
